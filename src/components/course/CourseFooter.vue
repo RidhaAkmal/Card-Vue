@@ -3,11 +3,12 @@
     <div class="footer">
         <div class="container">
             <p class="text-center">
-                MIT Licensed Copyright © 2019 – Present by Vite Contributor | Designed and Modified by <a href="#">Ridha Akmal Putra</a>
+                Copyright © 2022 | Designed and Modified by <a href="https://github.com/RidhaAkmal/">Ridha Akmal Putra</a>
             </p>
         </div>
     </div>
 </template>
+
 
 <style>
 footer { width:100%;}
