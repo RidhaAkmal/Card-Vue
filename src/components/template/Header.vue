@@ -6,5 +6,6 @@
 <style>
 h1{
     text-align: center;
+    color:rgb(255, 255, 255);
 }
 </style>

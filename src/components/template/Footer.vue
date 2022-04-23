@@ -1,8 +1,8 @@
 <template>
     <br/>
-    <div class="footer">
+    <div id="footer">
         <div class="container">
-            <p class="text-center">
+            <p>
                 Copyright © 2022 | Designed and Modified by <a href="https://github.com/RidhaAkmal/">Ridha Akmal Putra</a>
             </p>
         </div>
@@ -11,7 +11,14 @@
 
 
 <style>
-footer { width:100%;}
-p { font-size:13px;text-align: center;}
-a{color:#CCC; text-decoration: none;}
+    footer p {
+        color:coral;
+        font-size:13px;
+        text-align: center;
+    }
+
+    footer a {
+        color:azure; 
+        text-decoration: none;
+    }
 </style>

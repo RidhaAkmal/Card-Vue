@@ -1,3 +1,29 @@
+<script setup>
+import Atas from './template/Header.vue'
+import Tengah from './home/Main.vue'
+import Bawah from './template/Footer.vue'
+</script>
+
+<template>
+  <header>
+    <Atas/>
+  </header>
+    
+  <main>
+    <Tengah/>
+  </main>
+
+  <footer>
+    <Bawah/>
+  </footer>
+</template>
+
+<style>
+
+
+main{
+  text-align: center;
+}
 
 body {
   font-family: sans-serif;
@@ -29,3 +55,5 @@ body {
    border: none;
    cursor: pointer;
  }
+
+</style>

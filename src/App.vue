@@ -1,28 +1,17 @@
 <script setup>
-import Atas from './components/course/CourseHeader.vue'
-import Tengah from './components/course/CourseMain.vue'
-import Bawah from './components/course/CourseFooter.vue'
 </script>
 
 <template>
-  <header>
-    <Atas/>
-  </header>
-    
-  <main>
-    <Tengah/>
-  </main>
-
-  <footer>
-    <Bawah/>
-  </footer>
+  <router-view/>
 </template>
 
 <style>
-@import './assets/base.css';
-
-main{
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-
 </style>

@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import CardItem from './CardItem.vue'
+import Item from './Item.vue'
   
 const cards = ref([
     {
@@ -31,11 +31,11 @@ const cards = ref([
 </script>
 
 <template>
-	<CardItem
+	<Item
   	v-for="card in cards"
 	:key="card.id"
   	:title="card.title"
     :text="card.text"
     :link="card.link"
-	></CardItem>
+	></Item>
 </template>
